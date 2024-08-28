@@ -1,0 +1,84 @@
+:root{
+    --var-text-secondary:#e5e5e5;
+    --var-success-light:#c48585;
+}
+.text-secondary{
+    color: var(--var-text-secondary);
+}
+.width-fit{
+    width: fit-content;
+}
+.w-sm-auto{
+    width: auto !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler{
+    padding: 5px 10px;
+    line-height: 0;
+}
+.navbar-toggler-icon {
+
+    width: 1.2em;
+    height: 1em;
+}
+.btn-hover{
+    color: #969090;
+}
+.btn-hover:hover{
+    background-color: #e5e5e5 !important;
+    color: black !important;
+}
+.fs-sm{
+    font-size: 14px;
+}
+.h-fit{
+    height: fit-content;
+}
+.scrollbar{
+    display: none;
+}
+.scrollbar-hide{
+   scrollbar-width: none;
+}
+.letter-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-clamp-3{
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.scale{
+    transform: scale(1);
+    transition: 500ms;
+
+}
+.scale:hover{
+    transform: scale(1.05);
+    transition: 500ms;
+}
+.tyre-card{
+    right: -80px;
+    bottom: -50px !important;
+}
+.right-0{
+    right: 0;
+}
+.tyre-section{
+    cursor: pointer;
+}
+.tyre-section:hover{
+    box-shadow: 0px 2px 18px 5px #e5e5e5;
+}
+.bread a{
+    text-decoration: none;
+    color: #a7a7a7;
+}
